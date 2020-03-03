@@ -1,0 +1,56 @@
+    1  cd /workspace/ServerWeb; clear
+    2  export LANG=en_US.UTF-8;export LANGUAGE=en_US.UTF-8;locale-gen;source ~/.profile; [ ! -f ~/.custom_env ] || source ~/.custom_env; clear;
+    3  cd /workspace/ServerWeb; clear
+    4  ls
+    5  cd f01
+    6  git init
+    7  git add *
+    8  git commit -m "commit info.txt"
+    9  git config --global user.email "antoniojosejimenezsegovia@gmail.com"
+   10  git config --global user.name "Antonio Jose Jimenez Segovia"
+   11  git remote add origin https://github.com/nonospe/ServerWeb.git
+   12  git commit -m "commit info.txt"
+   13  git push -u origin master
+   14  git add *
+   15  git commit -m "commit2 info.txt"
+   16  git push -u origin master
+   17  node -v
+   18  npm -v
+   19  npm init
+   20  ls
+   21  touch index.js
+   22  node index.js
+   23  npm start
+   24  git add *
+   25  git commit -m "clock1"
+   26  git push -u origin master
+   27  npm start
+   28  touch ./gitignore
+   29* 
+   30  git commit -m "introducimos gitignore"
+   31  git push -u origin master
+   32  git add *
+   33  git commit -m "borramos archivo mal creado"
+   34  git add *
+   35  git commit -m "borramos archivo mal creado"
+   36  git commit -m ""
+   37  git push -u origin master
+   38  git fetch *
+   39  git fetch --all
+   40  git status
+   41  git pull -u origin master
+   42  git pull --all
+   43  git status
+   44  touch .gitignore
+   45  git add *
+   46  git commit -m "creamos ignore"
+   47  git add .gitignore
+   48  git commit -m "creamos ignore"
+   49  git push -u origin master
+   50  npm install express --save
+   51  npm start
+   52  git add *
+   53  git commit -m "terminamos el punto 13"
+   54  git push -u origin master
+   55  history
+   56  history > history.txt
