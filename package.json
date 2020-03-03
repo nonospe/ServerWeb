@@ -4,7 +4,7 @@
   "description": "f01 feedback",
   "main": "index.js",
   "scripts": {
-	  "start": "node index",
+    "start": "node index",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/nonospe/ServerWeb/issues"
   },
-  "homepage": "https://github.com/nonospe/ServerWeb#readme"
+  "homepage": "https://github.com/nonospe/ServerWeb#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
