@@ -1,0 +1,24 @@
+{
+  "name": "npmf01",
+  "version": "0.0.0",
+  "description": "f01 feedback",
+  "main": "index.js",
+  "scripts": {
+	  "start": "node index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nonospe/ServerWeb.git"
+  },
+  "keywords": [
+    "web",
+    "time"
+  ],
+  "author": "Antonio Jose Jimenez Segovia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nonospe/ServerWeb/issues"
+  },
+  "homepage": "https://github.com/nonospe/ServerWeb#readme"
+}
