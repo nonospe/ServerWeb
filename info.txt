@@ -1,3 +1,5 @@
 Este contenedor contiene un servidor web para el f01
 
 En el minuto 22 del video de l04 comenta como crear ramas.
+
+Debemos crear .gitignore para añadir las carpetas que no vamos a subir a git hub
